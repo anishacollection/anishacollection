@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anishacollection.atmumbai.workers.dev/sitemap.xml
