@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "Anisha Collection",
+  "short_name": "Anisha",
+  "description": "Buy cotton, silk and designer fabrics, embroidery material and dress sets online.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fef4de",
+  "theme_color": "#8b1230",
+  "categories": [
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
