@@ -1,6 +1,6 @@
 // Anisha Collection service worker: lets the site install as an app and open offline.
-const V = 'anisha-v1';
-const SHELL = ['/', '/favicon.png', '/icon-192.png', '/icon-512.png'];
+const V = 'anisha-v2';
+const SHELL = ['/', '/favicon.png', '/icon-v2-192.png', '/icon-v2-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(SHELL).catch(() => {})));
   self.skipWaiting();
